@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/misFunciones.js"></script>
+
+    <title>Reto3</title>
+</head>
+<body>
+
+    <h1>Specialty</h1>
+    <div id="resultado1"></div>
+    <button onclick="traerInformacionSpecialty()">Consultar Specialty</button>
+
+    <div>
+        <input type="text" id="Sname" placeholder="name">
+        <input type="text" id="Sdescription" placeholder="description">
+
+    </div>
+    <button onclick="saveInformacionSpecialty()">Guardar Specialty</button>
+    
+
+    <h1>Doctor</h1>
+    <div id="resultado2"></div>
+    <button onclick="traerInformacionDoctor()">Consultar Doctor</button>
+
+    <div>
+        <input type="text" id="Dname" placeholder="name">
+        <input type="number" id="Ddepartment" placeholder="department">
+        <input type="number" id="Dyear" placeholder="year">
+        <input type="text" id="Ddescription" placeholder="description">
+
+    </div>
+    <button onclick="saveInformacionDoctor()">Guardar Doctor</button>
+
+
+
+    <h1>Client</h1>
+    <div id="resultado3"></div>
+    <button onclick="traerInformacionClient()">Consultar Client</button>
+
+    <div>
+        <input type="text" id="Cemail" placeholder="email">
+        <input type="text" id="Cpassword" placeholder="password">
+        <input type="text" id="Cname" placeholder="name">
+        <input type="number" id="Cage" placeholder="age">
+        
+
+    </div>
+    <button onclick="saveInformacionClient()">Guardar Client</button>
+
+
+    <h1>Message</h1>
+    <div id="resultado4"></div>
+    <button onclick="traerInformacionMessage()">Consultar Message</button>
+
+    <div>
+        <input type="text" id="MmessageText" placeholder="messageText">
+        
+
+    </div>
+    <button onclick="saveInformacionMessage()">Guardar Message</button>
+
+    
+    <h1>Reservation</h1>
+    <div id="resultado5"></div>
+    <button onclick="traerInformacionReservation()">Consultar Reservation</button>
+
+    <div>
+        <input type="text" id="RstartDate" placeholder="startDate">
+        <input type="text" id="RdevolutionDate" placeholder="devolutionDate">
+        
+
+    </div>
+    <button onclick="saveInformacionReservation()">Guardar Reservation</button>
+
+    
+
+</body>
+</html>
